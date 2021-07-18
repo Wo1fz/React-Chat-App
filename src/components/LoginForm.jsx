@@ -39,7 +39,7 @@ const LoginForm = () => {
             onChange={(e) => setUsername(e.target.value)}
             className='input'
             placeholder='Username'
-            require
+            required
           />
           <input
             type='password'
@@ -47,15 +47,15 @@ const LoginForm = () => {
             onChange={(e) => setPassword(e.target.value)}
             className='input'
             placeholder='Password'
-            require
+            required
           />
           <div align='center'>
             <button type='submit' className='button'>
-              <span>Start Chatting</span>
+              <span>Start chatting</span>
             </button>
           </div>
-          <h2 className='error'>{error}</h2>
         </form>
+        <h1>{error}</h1>
       </div>
     </div>
   )

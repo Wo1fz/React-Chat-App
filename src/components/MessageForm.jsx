@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import { sendMessage, isTyping } from 'react-chat-engine'
-import { SendOutlined, PictureOutlined } from '@ant-design/icons'
+import {
+  SendOutlined,
+  PictureOutlined,
+  LogoutOutlined,
+} from '@ant-design/icons'
 
 const MessageForm = (props) => {
   const [value, setValue] = useState('')
