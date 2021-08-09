@@ -1,8 +1,10 @@
 # ID & password
 
-id: userAdmin password: 123qwe
+id: userAdmin
+password: 123qwe
 
-id: tester1 password: 123qwe
+id: tester1
+password: 123qwe
 
 # Getting Started with Create React App
 
